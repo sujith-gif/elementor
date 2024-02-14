@@ -1,0 +1,491 @@
+2024-01-15T09:56:21+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1555, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(119): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(101): Auxin_Font_Icons->get_font_json_contents('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(90): Auxin_Font_Icons->fetch_and_store_font_icons_list('fontastic', '/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/include/hooks-admin.php(14): Auxin_Font_Icons->update()
+#5 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(326): auxin_update_font_icons_list('Astra')
+#6 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/elementor/wp-includes/theme.php(3455): do_action('after_switch_th...', 'Astra', Object(WP_Theme))
+#9 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): check_theme_switched('')
+#10 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /opt/lampp/htdocs/elementor/wp-settings.php(643): do_action('init')
+#13 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#14 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#15 /opt/lampp/htdocs/elementor/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-admin/themes.php(10): require_once('/opt/lampp/htdo...')
+#17 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2024-01-15T09:56:28+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1555, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(119): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(101): Auxin_Font_Icons->get_font_json_contents('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(90): Auxin_Font_Icons->fetch_and_store_font_icons_list('fontastic', '/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/include/hooks-admin.php(14): Auxin_Font_Icons->update()
+#5 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(326): auxin_update_font_icons_list('Astra')
+#6 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/elementor/wp-includes/theme.php(3455): do_action('after_switch_th...', 'Astra', Object(WP_Theme))
+#9 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): check_theme_switched('')
+#10 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /opt/lampp/htdocs/elementor/wp-settings.php(643): do_action('init')
+#13 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#14 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#15 /opt/lampp/htdocs/elementor/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-admin/themes.php(10): require_once('/opt/lampp/htdo...')
+#17 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2024-01-15T09:56:35+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1560, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(119): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(101): Auxin_Font_Icons->get_font_json_contents('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(90): Auxin_Font_Icons->fetch_and_store_font_icons_list('fontastic', '/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/include/hooks-admin.php(14): Auxin_Font_Icons->update()
+#5 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(326): auxin_update_font_icons_list('Astra')
+#6 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/elementor/wp-includes/theme.php(3455): do_action('after_switch_th...', 'Astra', Object(WP_Theme))
+#9 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): check_theme_switched('')
+#10 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /opt/lampp/htdocs/elementor/wp-settings.php(643): do_action('init')
+#13 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#14 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#15 /opt/lampp/htdocs/elementor/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-admin/theme-install.php(10): require_once('/opt/lampp/htdo...')
+#17 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2024-01-15T09:56:41+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1560, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(119): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(101): Auxin_Font_Icons->get_font_json_contents('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(90): Auxin_Font_Icons->fetch_and_store_font_icons_list('fontastic', '/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/include/hooks-admin.php(14): Auxin_Font_Icons->update()
+#5 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(326): auxin_update_font_icons_list('Astra')
+#6 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/elementor/wp-includes/theme.php(3455): do_action('after_switch_th...', 'Astra', Object(WP_Theme))
+#9 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): check_theme_switched('')
+#10 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /opt/lampp/htdocs/elementor/wp-settings.php(643): do_action('init')
+#13 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#14 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#15 /opt/lampp/htdocs/elementor/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-admin/index.php(10): require_once('/opt/lampp/htdo...')
+#17 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2024-01-15T09:56:41+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1560, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(119): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(101): Auxin_Font_Icons->get_font_json_contents('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(90): Auxin_Font_Icons->fetch_and_store_font_icons_list('fontastic', '/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/include/hooks-admin.php(14): Auxin_Font_Icons->update()
+#5 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(326): auxin_update_font_icons_list('Astra')
+#6 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/elementor/wp-includes/theme.php(3455): do_action('after_switch_th...', 'Astra', Object(WP_Theme))
+#9 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): check_theme_switched('')
+#10 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /opt/lampp/htdocs/elementor/wp-settings.php(643): do_action('init')
+#13 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#14 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#15 /opt/lampp/htdocs/elementor/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-admin/index.php(10): require_once('/opt/lampp/htdo...')
+#17 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2024-01-15T09:56:47+00:00 CRITICAL Uncaught TypeError: ftp_fget(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(146): ftp_fget(NULL, Resource id #1562, '/opt/lampp/htdo...', 2)
+#1 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(119): WP_Filesystem_FTPext->get_contents('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(101): Auxin_Font_Icons->get_font_json_contents('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/classes/class-auxin-font-icons.php(90): Auxin_Font_Icons->fetch_and_store_font_icons_list('fontastic', '/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/phlox/auxin/auxin-include/include/hooks-admin.php(14): Auxin_Font_Icons->update()
+#5 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(326): auxin_update_font_icons_list('Astra')
+#6 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/elementor/wp-includes/theme.php(3455): do_action('after_switch_th...', 'Astra', Object(WP_Theme))
+#9 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): check_theme_switched('')
+#10 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /opt/lampp/htdocs/elementor/wp-settings.php(643): do_action('init')
+#13 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#14 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#15 /opt/lampp/htdocs/elementor/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#16 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 146
+
+2024-01-15T09:59:09+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(535): WP_Filesystem_Base->wp_content_dir()
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(576): WPTT_WebFont_Loader->get_base_path()
+#5 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(484): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(523): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(142): WPTT_WebFont_Loader->local_file_exists()
+#8 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(695): WPTT_WebFont_Loader->get_url()
+#9 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(409): wptt_get_webfont_url('https://fonts.g...')
+#10 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(40): catch_shop_fonts_url()
+#11 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): catch_shop_setup('')
+#12 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/elementor/wp-settings.php(621): do_action('after_setup_the...')
+#15 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#17 /opt/lampp/htdocs/elementor/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#18 /opt/lampp/htdocs/elementor/wp-admin/themes.php(10): require_once('/opt/lampp/htdo...')
+#19 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+
+2024-01-15T09:59:18+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(535): WP_Filesystem_Base->wp_content_dir()
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(576): WPTT_WebFont_Loader->get_base_path()
+#5 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(484): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(523): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(142): WPTT_WebFont_Loader->local_file_exists()
+#8 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(695): WPTT_WebFont_Loader->get_url()
+#9 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(409): wptt_get_webfont_url('https://fonts.g...')
+#10 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(40): catch_shop_fonts_url()
+#11 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): catch_shop_setup('')
+#12 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/elementor/wp-settings.php(621): do_action('after_setup_the...')
+#15 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#17 /opt/lampp/htdocs/elementor/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#18 /opt/lampp/htdocs/elementor/wp-admin/index.php(10): require_once('/opt/lampp/htdo...')
+#19 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+
+2024-01-15T09:59:19+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(535): WP_Filesystem_Base->wp_content_dir()
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(576): WPTT_WebFont_Loader->get_base_path()
+#5 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(484): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(523): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(142): WPTT_WebFont_Loader->local_file_exists()
+#8 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(695): WPTT_WebFont_Loader->get_url()
+#9 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(409): wptt_get_webfont_url('https://fonts.g...')
+#10 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(40): catch_shop_fonts_url()
+#11 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): catch_shop_setup('')
+#12 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/elementor/wp-settings.php(621): do_action('after_setup_the...')
+#15 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#17 /opt/lampp/htdocs/elementor/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#18 /opt/lampp/htdocs/elementor/wp-admin/index.php(10): require_once('/opt/lampp/htdo...')
+#19 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+
+2024-01-15T09:59:35+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(535): WP_Filesystem_Base->wp_content_dir()
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(576): WPTT_WebFont_Loader->get_base_path()
+#5 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(484): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(523): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(142): WPTT_WebFont_Loader->local_file_exists()
+#8 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(695): WPTT_WebFont_Loader->get_url()
+#9 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(409): wptt_get_webfont_url('https://fonts.g...')
+#10 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(40): catch_shop_fonts_url()
+#11 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): catch_shop_setup('')
+#12 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/elementor/wp-settings.php(621): do_action('after_setup_the...')
+#15 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#17 /opt/lampp/htdocs/elementor/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#18 /opt/lampp/htdocs/elementor/index.php(17): require('/opt/lampp/htdo...')
+#19 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+
+2024-01-15T09:59:36+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(535): WP_Filesystem_Base->wp_content_dir()
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(576): WPTT_WebFont_Loader->get_base_path()
+#5 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(484): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(523): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(142): WPTT_WebFont_Loader->local_file_exists()
+#8 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(695): WPTT_WebFont_Loader->get_url()
+#9 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(409): wptt_get_webfont_url('https://fonts.g...')
+#10 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(40): catch_shop_fonts_url()
+#11 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): catch_shop_setup('')
+#12 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/elementor/wp-settings.php(621): do_action('after_setup_the...')
+#15 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#17 /opt/lampp/htdocs/elementor/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#18 /opt/lampp/htdocs/elementor/index.php(17): require('/opt/lampp/htdo...')
+#19 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+
+2024-01-15T09:59:39+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(535): WP_Filesystem_Base->wp_content_dir()
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(576): WPTT_WebFont_Loader->get_base_path()
+#5 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(484): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(523): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(142): WPTT_WebFont_Loader->local_file_exists()
+#8 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(695): WPTT_WebFont_Loader->get_url()
+#9 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(409): wptt_get_webfont_url('https://fonts.g...')
+#10 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(40): catch_shop_fonts_url()
+#11 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): catch_shop_setup('')
+#12 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/elementor/wp-settings.php(621): do_action('after_setup_the...')
+#15 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#17 /opt/lampp/htdocs/elementor/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#18 /opt/lampp/htdocs/elementor/index.php(17): require('/opt/lampp/htdo...')
+#19 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+
+2024-01-15T09:59:55+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(535): WP_Filesystem_Base->wp_content_dir()
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(576): WPTT_WebFont_Loader->get_base_path()
+#5 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(484): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(523): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(142): WPTT_WebFont_Loader->local_file_exists()
+#8 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(695): WPTT_WebFont_Loader->get_url()
+#9 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(409): wptt_get_webfont_url('https://fonts.g...')
+#10 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(40): catch_shop_fonts_url()
+#11 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): catch_shop_setup('')
+#12 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/elementor/wp-settings.php(621): do_action('after_setup_the...')
+#15 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#17 /opt/lampp/htdocs/elementor/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#18 /opt/lampp/htdocs/elementor/index.php(17): require('/opt/lampp/htdo...')
+#19 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+
+2024-01-15T09:59:57+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(535): WP_Filesystem_Base->wp_content_dir()
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(576): WPTT_WebFont_Loader->get_base_path()
+#5 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(484): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(523): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(142): WPTT_WebFont_Loader->local_file_exists()
+#8 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(695): WPTT_WebFont_Loader->get_url()
+#9 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(409): wptt_get_webfont_url('https://fonts.g...')
+#10 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(40): catch_shop_fonts_url()
+#11 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): catch_shop_setup('')
+#12 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/elementor/wp-settings.php(621): do_action('after_setup_the...')
+#15 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#17 /opt/lampp/htdocs/elementor/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#18 /opt/lampp/htdocs/elementor/index.php(17): require('/opt/lampp/htdo...')
+#19 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+
+2024-01-15T10:00:08+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(535): WP_Filesystem_Base->wp_content_dir()
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(576): WPTT_WebFont_Loader->get_base_path()
+#5 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(484): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(523): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(142): WPTT_WebFont_Loader->local_file_exists()
+#8 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(695): WPTT_WebFont_Loader->get_url()
+#9 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(409): wptt_get_webfont_url('https://fonts.g...')
+#10 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(40): catch_shop_fonts_url()
+#11 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): catch_shop_setup('')
+#12 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/elementor/wp-settings.php(621): do_action('after_setup_the...')
+#15 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#17 /opt/lampp/htdocs/elementor/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#18 /opt/lampp/htdocs/elementor/wp-admin/index.php(10): require_once('/opt/lampp/htdo...')
+#19 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+
+2024-01-15T10:00:09+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(535): WP_Filesystem_Base->wp_content_dir()
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(576): WPTT_WebFont_Loader->get_base_path()
+#5 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(484): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(523): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(142): WPTT_WebFont_Loader->local_file_exists()
+#8 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(695): WPTT_WebFont_Loader->get_url()
+#9 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(409): wptt_get_webfont_url('https://fonts.g...')
+#10 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(40): catch_shop_fonts_url()
+#11 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): catch_shop_setup('')
+#12 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/elementor/wp-settings.php(621): do_action('after_setup_the...')
+#15 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#17 /opt/lampp/htdocs/elementor/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#18 /opt/lampp/htdocs/elementor/wp-admin/index.php(10): require_once('/opt/lampp/htdo...')
+#19 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+
+2024-01-15T10:00:33+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(535): WP_Filesystem_Base->wp_content_dir()
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(576): WPTT_WebFont_Loader->get_base_path()
+#5 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(484): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(523): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(142): WPTT_WebFont_Loader->local_file_exists()
+#8 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(695): WPTT_WebFont_Loader->get_url()
+#9 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(409): wptt_get_webfont_url('https://fonts.g...')
+#10 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(40): catch_shop_fonts_url()
+#11 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): catch_shop_setup('')
+#12 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/elementor/wp-settings.php(621): do_action('after_setup_the...')
+#15 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#17 /opt/lampp/htdocs/elementor/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#18 /opt/lampp/htdocs/elementor/wp-admin/index.php(10): require_once('/opt/lampp/htdo...')
+#19 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+
+2024-01-15T10:01:05+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(535): WP_Filesystem_Base->wp_content_dir()
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(576): WPTT_WebFont_Loader->get_base_path()
+#5 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(484): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(523): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(142): WPTT_WebFont_Loader->local_file_exists()
+#8 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(695): WPTT_WebFont_Loader->get_url()
+#9 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(409): wptt_get_webfont_url('https://fonts.g...')
+#10 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(40): catch_shop_fonts_url()
+#11 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): catch_shop_setup('')
+#12 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/elementor/wp-settings.php(621): do_action('after_setup_the...')
+#15 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#17 /opt/lampp/htdocs/elementor/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#18 /opt/lampp/htdocs/elementor/index.php(17): require('/opt/lampp/htdo...')
+#19 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+
+2024-01-15T10:01:06+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(535): WP_Filesystem_Base->wp_content_dir()
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(576): WPTT_WebFont_Loader->get_base_path()
+#5 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(484): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(523): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(142): WPTT_WebFont_Loader->local_file_exists()
+#8 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(695): WPTT_WebFont_Loader->get_url()
+#9 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(409): wptt_get_webfont_url('https://fonts.g...')
+#10 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(40): catch_shop_fonts_url()
+#11 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): catch_shop_setup('')
+#12 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/elementor/wp-settings.php(621): do_action('after_setup_the...')
+#15 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#17 /opt/lampp/htdocs/elementor/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#18 /opt/lampp/htdocs/elementor/index.php(17): require('/opt/lampp/htdo...')
+#19 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+
+2024-01-15T10:01:38+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(535): WP_Filesystem_Base->wp_content_dir()
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(576): WPTT_WebFont_Loader->get_base_path()
+#5 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(484): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(523): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(142): WPTT_WebFont_Loader->local_file_exists()
+#8 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(695): WPTT_WebFont_Loader->get_url()
+#9 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(409): wptt_get_webfont_url('https://fonts.g...')
+#10 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(40): catch_shop_fonts_url()
+#11 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): catch_shop_setup('')
+#12 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/elementor/wp-settings.php(621): do_action('after_setup_the...')
+#15 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#17 /opt/lampp/htdocs/elementor/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#18 /opt/lampp/htdocs/elementor/index.php(17): require('/opt/lampp/htdo...')
+#19 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+
+2024-01-15T10:01:41+00:00 CRITICAL Uncaught TypeError: ftp_nlist(): Argument #1 ($ftp) must be of type resource, null given in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php:438
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php(438): ftp_nlist(NULL, '/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(231): WP_Filesystem_FTPext->exists('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-base.php(79): WP_Filesystem_Base->find_folder('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(535): WP_Filesystem_Base->wp_content_dir()
+#4 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(576): WPTT_WebFont_Loader->get_base_path()
+#5 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(484): WPTT_WebFont_Loader->get_fonts_folder()
+#6 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(523): WPTT_WebFont_Loader->get_local_stylesheet_path()
+#7 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(142): WPTT_WebFont_Loader->local_file_exists()
+#8 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/inc/wptt-webfont-loader.php(695): WPTT_WebFont_Loader->get_url()
+#9 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(409): wptt_get_webfont_url('https://fonts.g...')
+#10 /opt/lampp/htdocs/elementor/wp-content/themes/catch-shop/functions.php(40): catch_shop_fonts_url()
+#11 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): catch_shop_setup('')
+#12 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#13 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/elementor/wp-settings.php(621): do_action('after_setup_the...')
+#15 /opt/lampp/htdocs/elementor/wp-config.php(96): require_once('/opt/lampp/htdo...')
+#16 /opt/lampp/htdocs/elementor/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#17 /opt/lampp/htdocs/elementor/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#18 /opt/lampp/htdocs/elementor/index.php(17): require('/opt/lampp/htdo...')
+#19 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-admin/includes/class-wp-filesystem-ftpext.php on line 438
+

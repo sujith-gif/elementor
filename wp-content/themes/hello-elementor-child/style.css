@@ -1,0 +1,110 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash
+Template: hello-elementor
+Author: Sujith
+Author URI: https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash
+Description: Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor site builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. The theme, which is optimized for performance, provides a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. Its simplicity and flexibility make it a great choice for both beginners and experienced Web Creators.
+Tags: accessibility-ready,flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 3.0.0.1705383754
+Updated: 2024-01-16 05:42:34
+
+*/
+
+/* cart */
+#menu-custom-menu{
+    display: flex;
+    list-style: none;
+    gap: 21px;
+}
+/* Change Add to Cart button color on shop page */
+.add_to_cart_button {
+    background-color: #0073e6 !important; 
+    color: #fff !important; 
+    border-color: #0073e6 !important;
+    transition: 1s!important; 
+}
+
+.add_to_cart_button:hover {
+    background-color: #fff !important;
+    border-color: #0056b3 !important; 
+    color: #0056b3!important;
+}
+
+/* Change Add to Cart button color on single product page */
+.single_add_to_cart_button {
+    background-color: #0073e6 !important; 
+    color: #fff !important; 
+    border-color: #0073e6 !important; 
+}
+
+.single_add_to_cart_button:hover {
+    background-color: #fff !important;
+    border-color: #0056b3 !important; 
+    color:#0056b3 !important;
+    transition: 1s!important;
+}
+.product_type_variable{
+    color: white!important;
+    background-color: #0056b3!important;
+}.product_type_variable:hover{
+    color:#0056b3!important;
+    background-color: #fff!important;
+    transition: 1s!important;
+}
+
+/* contact form */
+.wpcf7 {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.wpcf7 input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+.wpcf7 input[type="submit"]:hover {
+    background-color: white;
+    color: #0056b3;
+}
+
+.wpcf7 input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+}
+
+.wpcf7-response-output.wpcf7-mail-sent-ok {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.wpcf7 .wpcf7-not-valid-tip {
+    color: #e74c3c;
+}
+
+.wpcf7 label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+    .wpcf7 {
+        max-width: 100%;
+    }
+}
+/* dasboard or my account page */
+.woocommerce-MyAccount-content{
+    display: none!important;
+}

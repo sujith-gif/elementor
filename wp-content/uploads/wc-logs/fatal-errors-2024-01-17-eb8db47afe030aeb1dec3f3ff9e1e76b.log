@@ -1,0 +1,14 @@
+2024-01-17T05:45:27+00:00 CRITICAL Uncaught Error: Call to a member function update_meta() on bool in /opt/lampp/htdocs/elementor/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:294
+Stack trace:
+#0 /opt/lampp/htdocs/elementor/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(167): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /opt/lampp/htdocs/elementor/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /opt/lampp/htdocs/elementor/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/elementor/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/elementor/wp-admin/admin-ajax.php(188): do_action('wp_ajax_element...')
+#7 {main}
+  thrown in /opt/lampp/htdocs/elementor/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 294
+
+2024-01-17T06:49:15+00:00 CRITICAL Unclosed '{' on line 29 in /opt/lampp/htdocs/elementor/wp-content/themes/hello-elementor-child/functions.php on line 34
+
